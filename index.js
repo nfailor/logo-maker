@@ -1,6 +1,7 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 const {Triangle, Circle, Square} = require('./lib/shapes');
+const path = require('path');
 
 const questions = [
     {
@@ -29,8 +30,9 @@ const questions = [
 inquirer.prompt(questions).then((responses) => {
     console.log(responses);
 
+    const outputPath = path.join('./examples', 'logo.svg')
 
-    writeToFile('logo.svg', responses);
+    writeToFile(outputPath, responses);
 })
 
 function writeToFile(fileName, data) {
