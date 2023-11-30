@@ -29,6 +29,10 @@
 
   This program can be used in order to create a logo for a project, team, company, etc. which allows for easier identifiability.
 
+  Please click the below link to see a quick demonstration of how it works!
+
+  https://drive.google.com/file/d/1TYvvJ-7TViK1Roua_4ct5Rsl_debO2YE/view
+
   ## Licensing
 
   This project is licensed under the ISC license. [![GitHub License](https://img.shields.io/badge/license-ISC-blue.svg)
